@@ -1,0 +1,1 @@
+something = "Merry Christmas and Happy New Year"
