@@ -1,11 +1,7 @@
-# from package_a.module_a import something
-# from ..package_a.module_a import something
-import sys
+from package_a.module_a import something #not working
+# from ..package_a.module_a import something #not working
+# from .. import module_a  ## not working
+# from package_a.module_a import something # not working
 
-print('before', sys.path)
-sys.path.append("../package_a")
-print('after', sys.path)
-
-from package_a.module_a import something # not working
 
 print(something)
